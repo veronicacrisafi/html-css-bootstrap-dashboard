@@ -61,14 +61,55 @@
                     </div>
                     <div class="row g-3">
                         <div class="col">
-                            <label for="inputEmail4" class="form-label">Nome Autore</label>
+                            <label for="inputEmail4" class="form-label fw-bold">Nome Autore</label>
                             <input type="text" class="form-control" placeholder="Inserisci il nome dell'autore"
                                 aria-label="First name">
                         </div>
                         <div class="col">
-                            <label for="inputEmail4" class="form-label">Cognome Autore</label>
+                            <label for="inputEmail4" class="form-label fw-bold">Cognome Autore</label>
                             <input type="text" class="form-control" placeholder="Inserisci il cognome dell'autore"
                                 aria-label="Last name">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label fw-bold">Titolo</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Inserisci il titolo del libro">
+                        </div>
+                        <p class="text-secondary fs-">Titolo versione italiana</p>
+                        <div class="col-md-4">
+                            <label for="inputState" class="form-label fw-bold">Genere</label>
+                            <select id="inputState" class="form-select">
+                                <option selected="">Scegli il genere</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="inputCity" class="form-label fw-bold">Anno di Pubblicazione</label>
+                            <input type="text" class="form-control" placeholder="Inserisci l'anno" id="inputCity">
+                        </div>
+
+                        <div class="col-md-4">
+                            <label for="inputZip" class="form-label fw-bold">ISBN#</label>
+                            <input type="text" class="form-control" placeholder="Inserisci codice ISBN#" id="inputZip">
+                        </div>
+                        <hr>
+                        <p class="fw-bold">Note</p>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px"></textarea>
+                            <label class="text-secondary" for="floatingTextarea2">Inserisci eventuali note sul
+                                libro</label>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Disponibile anche in digitale
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
                         </div>
                     </div>
                 </div>
